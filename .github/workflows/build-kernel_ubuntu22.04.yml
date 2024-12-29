@@ -74,7 +74,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
         mkdir clang-aosp
-        git clone https://gitlab.com/Neebe3289/android_prebuilts_clang_host_linux-x86.git -b ${{ env.TCLANG_BRANCH }} clang-aosp --depth=1  
+        git clone https://github.com/kmou424/proton-clang-11.git -b 20200620 clang-aosp --depth=1  
     
 
     - name: Download Google_gcc-4.9 
